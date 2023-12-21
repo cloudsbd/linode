@@ -1,0 +1,1 @@
+import{j as t,V as i}from"./index-Eksrs3uK.js";import{b as n,c as m}from"./TabList-4PWL4GSj.js";const c=({noLink:s,tabs:a})=>t.jsx(n,{children:a.map((r,o)=>{const e=s?{}:{as:i,to:r.routeName};return t.jsx(m,{...e,children:r.title},`tab-${o}`)})});export{c as T};
