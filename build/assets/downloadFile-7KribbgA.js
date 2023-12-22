@@ -1,1 +1,0 @@
-const n=(o,d)=>{const t=new Blob([d],{type:"text/yaml"}),e=window.document.createElement("a");e.href=window.URL.createObjectURL(t),e.download=o,document.body.appendChild(e),e.click(),document.body.removeChild(e)};export{n as d};
